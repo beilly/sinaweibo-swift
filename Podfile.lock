@@ -1,19 +1,8 @@
 PODS:
-  - AFNetworking (3.1.0):
-    - AFNetworking/NSURLSession (= 3.1.0)
-    - AFNetworking/Reachability (= 3.1.0)
-    - AFNetworking/Security (= 3.1.0)
-    - AFNetworking/Serialization (= 3.1.0)
-    - AFNetworking/UIKit (= 3.1.0)
-  - AFNetworking/NSURLSession (3.1.0):
-    - AFNetworking/Reachability
-    - AFNetworking/Security
-    - AFNetworking/Serialization
-  - AFNetworking/Reachability (3.1.0)
-  - AFNetworking/Security (3.1.0)
-  - AFNetworking/Serialization (3.1.0)
-  - AFNetworking/UIKit (3.1.0):
-    - AFNetworking/NSURLSession
+  - Alamofire (3.4.0)
+  - AlamofireSwiftyJSON (0.1.1):
+    - Alamofire (~> 3.4)
+    - SwiftyJSON (~> 2.3)
   - FFLabel (0.0.3)
   - MJRefresh (3.1.0)
   - SDWebImage (3.7.6):
@@ -21,23 +10,28 @@ PODS:
   - SDWebImage/Core (3.7.6)
   - SnapKit (0.21.0)
   - SVProgressHUD (2.0.3)
+  - SwiftyJSON (2.3.2)
 
 DEPENDENCIES:
-  - AFNetworking
+  - Alamofire
+  - AlamofireSwiftyJSON
   - FFLabel
   - MJRefresh
   - SDWebImage
   - SnapKit
   - SVProgressHUD
+  - SwiftyJSON
 
 SPEC CHECKSUMS:
-  AFNetworking: 5e0e199f73d8626b11e79750991f5d173d1f8b67
+  Alamofire: c19a627cefd6a95f840401c49ab1f124e07f54ee
+  AlamofireSwiftyJSON: 4787ff07c7e6687b787f1723229e729653e3359f
   FFLabel: ded40d0ad233d269844125f28051e79b0690875f
   MJRefresh: 743e6404967d1c2c688472ea3ecfde247d872db4
   SDWebImage: c325cf02c30337336b95beff20a13df489ec0ec9
   SnapKit: 2756fe24b706367af224c9c508d2f9166d03354c
   SVProgressHUD: b0830714205bea1317ea1a2ebc71e5633af334d4
+  SwiftyJSON: 04ccea08915aa0109039157c7974cf0298da292a
 
-PODFILE CHECKSUM: 3c37343b22b49a9ea5386ab82f7406d9e19d0bee
+PODFILE CHECKSUM: a25c8fb0a94831fea2ba126eadc534653fbcd744
 
 COCOAPODS: 1.0.0

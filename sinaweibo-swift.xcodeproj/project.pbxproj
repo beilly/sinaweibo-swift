@@ -14,7 +14,7 @@
 		EADA8EF31CF6EDAF00E57AE2 /* sinaweibo_swiftTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = EADA8EF21CF6EDAF00E57AE2 /* sinaweibo_swiftTests.swift */; };
 		EADA8EFE1CF6EDAF00E57AE2 /* sinaweibo_swiftUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = EADA8EFD1CF6EDAF00E57AE2 /* sinaweibo_swiftUITests.swift */; };
 		EADA8F101CF6F1E900E57AE2 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = EADA8F0E1CF6F1E900E57AE2 /* AppDelegate.swift */; };
-		EADA8F111CF6F1E900E57AE2 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = EADA8F0F1CF6F1E900E57AE2 /* ViewController.swift */; };
+		EADA8F111CF6F1E900E57AE2 /* BLWelcomeViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = EADA8F0F1CF6F1E900E57AE2 /* BLWelcomeViewController.swift */; };
 		EADA8F2C1CF6F59200E57AE2 /* SWMineControllerViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = EADA8F2B1CF6F59200E57AE2 /* SWMineControllerViewController.swift */; };
 /* End PBXBuildFile section */
 
@@ -51,7 +51,7 @@
 		EADA8EFD1CF6EDAF00E57AE2 /* sinaweibo_swiftUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = sinaweibo_swiftUITests.swift; sourceTree = "<group>"; };
 		EADA8EFF1CF6EDAF00E57AE2 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		EADA8F0E1CF6F1E900E57AE2 /* AppDelegate.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = AppDelegate.swift; path = Source/AppDelegate.swift; sourceTree = "<group>"; };
-		EADA8F0F1CF6F1E900E57AE2 /* ViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = ViewController.swift; path = Source/ViewController.swift; sourceTree = "<group>"; };
+		EADA8F0F1CF6F1E900E57AE2 /* BLWelcomeViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = BLWelcomeViewController.swift; path = Source/BLWelcomeViewController.swift; sourceTree = "<group>"; };
 		EADA8F2B1CF6F59200E57AE2 /* SWMineControllerViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SWMineControllerViewController.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
@@ -159,7 +159,7 @@
 				EADA8F291CF6F46900E57AE2 /* Message */,
 				EADA8F2A1CF6F46900E57AE2 /* Mine */,
 				EADA8F0E1CF6F1E900E57AE2 /* AppDelegate.swift */,
-				EADA8F0F1CF6F1E900E57AE2 /* ViewController.swift */,
+				EADA8F0F1CF6F1E900E57AE2 /* BLWelcomeViewController.swift */,
 			);
 			name = Source;
 			sourceTree = "<group>";
@@ -387,7 +387,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				EADA8F111CF6F1E900E57AE2 /* ViewController.swift in Sources */,
+				EADA8F111CF6F1E900E57AE2 /* BLWelcomeViewController.swift in Sources */,
 				EADA8F2C1CF6F59200E57AE2 /* SWMineControllerViewController.swift in Sources */,
 				EADA8F101CF6F1E900E57AE2 /* AppDelegate.swift in Sources */,
 			);
