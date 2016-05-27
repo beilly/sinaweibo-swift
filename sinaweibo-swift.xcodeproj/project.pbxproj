@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		38CAA70683C3DF2F22CCA1BD /* Pods_sinaweibo_swift.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 3D30FB22AF33F689F44A0E94 /* Pods_sinaweibo_swift.framework */; };
 		EADA8EE31CF6EDAF00E57AE2 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = EADA8EE11CF6EDAF00E57AE2 /* Main.storyboard */; };
 		EADA8EE51CF6EDAF00E57AE2 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = EADA8EE41CF6EDAF00E57AE2 /* Assets.xcassets */; };
 		EADA8EE81CF6EDAF00E57AE2 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = EADA8EE61CF6EDAF00E57AE2 /* LaunchScreen.storyboard */; };
@@ -35,6 +36,9 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		00831A02398B9DF65AA6925E /* Pods-sinaweibo-swift.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-sinaweibo-swift.release.xcconfig"; path = "Pods/Target Support Files/Pods-sinaweibo-swift/Pods-sinaweibo-swift.release.xcconfig"; sourceTree = "<group>"; };
+		3D30FB22AF33F689F44A0E94 /* Pods_sinaweibo_swift.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_sinaweibo_swift.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		5694DFC37074D85958B5A153 /* Pods-sinaweibo-swift.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-sinaweibo-swift.debug.xcconfig"; path = "Pods/Target Support Files/Pods-sinaweibo-swift/Pods-sinaweibo-swift.debug.xcconfig"; sourceTree = "<group>"; };
 		EADA8EDA1CF6EDAF00E57AE2 /* sinaweibo-swift.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "sinaweibo-swift.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		EADA8EE21CF6EDAF00E57AE2 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		EADA8EE41CF6EDAF00E57AE2 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
@@ -56,6 +60,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				38CAA70683C3DF2F22CCA1BD /* Pods_sinaweibo_swift.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -76,6 +81,23 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		4B044F03DCA609E82C299BD8 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				3D30FB22AF33F689F44A0E94 /* Pods_sinaweibo_swift.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		E02D215BF38179A6F3C0742E /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				5694DFC37074D85958B5A153 /* Pods-sinaweibo-swift.debug.xcconfig */,
+				00831A02398B9DF65AA6925E /* Pods-sinaweibo-swift.release.xcconfig */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
 		EADA8ED11CF6EDAF00E57AE2 = {
 			isa = PBXGroup;
 			children = (
@@ -83,6 +105,8 @@
 				EADA8EF11CF6EDAF00E57AE2 /* sinaweibo-swiftTests */,
 				EADA8EFC1CF6EDAF00E57AE2 /* sinaweibo-swiftUITests */,
 				EADA8EDB1CF6EDAF00E57AE2 /* Products */,
+				E02D215BF38179A6F3C0742E /* Pods */,
+				4B044F03DCA609E82C299BD8 /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -188,9 +212,12 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = EADA8F021CF6EDAF00E57AE2 /* Build configuration list for PBXNativeTarget "sinaweibo-swift" */;
 			buildPhases = (
+				74D666902BAB6578EEFD8EDC /* 📦 Check Pods Manifest.lock */,
 				EADA8ED61CF6EDAF00E57AE2 /* Sources */,
 				EADA8ED71CF6EDAF00E57AE2 /* Frameworks */,
 				EADA8ED81CF6EDAF00E57AE2 /* Resources */,
+				2606FB011A568DCF551FE6DE /* 📦 Embed Pods Frameworks */,
+				3DCBC341118D5BEAD12CB23F /* 📦 Copy Pods Resources */,
 			);
 			buildRules = (
 			);
@@ -306,6 +333,54 @@
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		2606FB011A568DCF551FE6DE /* 📦 Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "📦 Embed Pods Frameworks";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-sinaweibo-swift/Pods-sinaweibo-swift-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		3DCBC341118D5BEAD12CB23F /* 📦 Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "📦 Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-sinaweibo-swift/Pods-sinaweibo-swift-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		74D666902BAB6578EEFD8EDC /* 📦 Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "📦 Check Pods Manifest.lock";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_ROOT}/../Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [[ $? != 0 ]] ; then\n    cat << EOM\nerror: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\nEOM\n    exit 1\nfi\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
 
 /* Begin PBXSourcesBuildPhase section */
 		EADA8ED61CF6EDAF00E57AE2 /* Sources */ = {
@@ -454,6 +529,7 @@
 		};
 		EADA8F031CF6EDAF00E57AE2 /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 5694DFC37074D85958B5A153 /* Pods-sinaweibo-swift.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CLANG_ENABLE_MODULES = YES;
@@ -467,6 +543,7 @@
 		};
 		EADA8F041CF6EDAF00E57AE2 /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 00831A02398B9DF65AA6925E /* Pods-sinaweibo-swift.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CLANG_ENABLE_MODULES = YES;

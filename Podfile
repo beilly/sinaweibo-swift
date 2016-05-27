@@ -1,8 +1,11 @@
 use_frameworks!
 platform:ios, ‘8.0’
-pod ‘AFNetworking’
-pod ‘SDWebImage’
-pod ’SVProgressHUD’
-pod ’SnapKit’
-pod ‘FFLabel’
-pod ‘MJRefresh’
+
+target 'sinaweibo-swift' do
+  pod ‘AFNetworking’
+  pod ‘SDWebImage’
+  pod ’SVProgressHUD’
+  pod ’SnapKit’
+  pod ‘FFLabel’
+  pod ‘MJRefresh’
+end
